@@ -1,0 +1,135 @@
+html{
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  background: url(../imagens/bg-repeat.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  gap: 10rem;
+}
+
+.texto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFFFFF;
+  width: 50%;
+}
+
+.texto h1{
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 11px;
+  text-transform: uppercase;
+}
+
+.texto p{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.formulario{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.formulario .caixa-formulario{
+  padding: 21px;
+  width: 340px;
+  height: 378px;
+  background-color: #FFFFFF;
+}
+
+.formulario .caixa-formulario input{
+  width: 100%;
+  height: 35px;
+  border: solid 1px #000000;
+  border-radius: 5px;
+  padding: 8px;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.formulario .caixa-formulario input::placeholder{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #A8A8A8;
+}
+
+.formulario .caixa-formulario textarea{
+  width: 100%;
+  height: 100px;
+  border: solid 1px #000000;
+  border-radius: 5px;
+  padding: 8px;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.formulario .caixa-formulario textarea::placeholder{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #A8A8A8;
+}
+
+.formulario .caixa-formulario h2{
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.formulario .caixa-formulario input[type=button]{
+  border: none;
+  height: 42px;
+  background-color: #3CCC87;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  transition: 0.6s ease;
+  cursor: pointer;
+  outline: none;
+}
+
+.formulario .caixa-formulario input[type=button]:hover{
+  background-color: #26a769;
+}
+
+.formulario .caixa-formulario .vazio{
+  border: solid 1px #F52E2E
+  ;
+}
+
+.formulario .caixa-formulario .preenchido{
+  border: solid 1px #00C22B
+  ;
+}
+
+.formulario .caixa-formulario .mostrar{
+  font-size: 0.8rem;
+  color: #F52E2E;
+  margin-bottom: 6px;
+  opacity: 1;
+}
+
+.formulario .caixa-formulario .ocultar{
+  opacity: 0;
+}
+
