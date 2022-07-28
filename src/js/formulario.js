@@ -17,3 +17,17 @@ botaoEnviar.addEventListener('click', function(){
         }
     }
 })
+
+const input = document.querySelectorAll('.input')
+
+input.forEach(input => {
+    input.addEventListener('input', function valido(){
+        if(input.value != ''){
+            input.classList.add('preenchido')
+            input.classList.remove('vazio')
+            input.nextElementSibling.classList.remove('vazio')
+        }else{
+            input.classList.remove('preenchido')
+        }
+    })
+})
