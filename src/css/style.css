@@ -1,0 +1,87 @@
+html {
+  font-size: 62.5%;
+  background: url(../imagens/bg-repeat.jpg) repeat-x;
+  background-size: contain;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: auto;
+  gap: 75px;
+}
+
+.texto {
+  color: #ffffff;
+  width: 400px;
+}
+
+.texto h1 {
+  font-weight: 900;
+  font-size: 2.7rem;
+  margin-bottom: 12px;
+}
+
+.texto p {
+  font-size: 2rem;
+}
+
+.formulario {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  padding: 20px;
+  width: 340px;
+  height: 378px;
+  gap: 5px;
+}
+
+.formulario input {
+  border-radius: 5px;
+  height: 35px;
+  padding-left: 10px;
+  width: 298px;
+
+}
+
+
+.formulario .mensagem {
+  height: 100px;
+  width: 298px;
+  border-radius: 5px;
+  text-align: start;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.formulario .botao {
+  background-color: #3CCC87;
+  color: #ffffff;
+  text-align: center;
+  width: 298px;
+  height: 42px;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.formulario span {
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+
+.formulario span.erro {
+  color: #F52E2E;
+}
+
+.formulario .campo.erro {
+  border: #F52E2E 1.9px solid;
+  margin-bottom: 0;
+}
+
+.formulario .campo.ok {
+  border: #00C22B 1.9px solid;
+}
